@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "گروه نوآوری اِیت",
+  "text": "ما به نوآوری ایمان داریم. ما سعی می‌کنیم در فعالیت‌های خود خلاق و نوآور باشیم. ما می‌توانیم در زمینه فناوری اطلاعات، تکنولوژی، محتوا، تبلیغات، فروش و بازاریابی به شما کمک کنیم. ما راه حل هایی نوآور و کارساز را برای تجارت شما ارائه می دهیم. با ما نوآور باشید.",
   "button": [
     {
       "title": "Explore"
     },
     {
-      "title": "Learn more",
+      "title": "ارتباط با ما",
       "color": "#fff"
     }
   ]
