@@ -17,7 +17,7 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <ContentBlock
-        type="right"
+        type="left"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
