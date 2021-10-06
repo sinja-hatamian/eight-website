@@ -33,7 +33,6 @@ const Home = () => {
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        section={AboutContent.section}
         icon="graphs.svg"
         id="about"
       />

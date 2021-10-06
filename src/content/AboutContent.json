@@ -1,16 +1,4 @@
 {
   "title": "نقشه راه، بازاریابی و فروش",
-  "text": "آژانس بازاریابی اوژن راهبر ما برای فروش و بازاریابی در گروه نوآور اِیت است. ما بهترین مسیر را برای موفقیت شما در نظر می‌گیریم. ما، فروش و بازاریابی شما را گام به گام بهبود می‌بخشیم.",
-  "section": [
-    {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
-    },
-    {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
-    }
-  ]
+  "text": "آژانس بازاریابی اوژن راهبر ما برای فروش و بازاریابی در گروه نوآور اِیت است. ما بهترین مسیر را برای موفقیت شما در نظر می‌گیریم. ما، فروش و بازاریابی شما را گام به گام بهبود می‌بخشیم."
 }
