@@ -16,9 +16,9 @@ import {
   Empty,
   FooterContainer,
   Language,
-  Label,
-  LanguageSwitch,
-  LanguageSwitchContainer,
+  // Label,
+  // LanguageSwitch,
+  // LanguageSwitchContainer,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -51,16 +51,16 @@ const Footer = ({ t }: any) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>{t("ارتباط")}</Language>
+              <Large to="/">{t("می‌تونی با ما صحبت کنی")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`آیا سوالی دارید؟ بهمون پیغام بدید`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:info@eightco.xyz">
+                <Chat>{t(`شروع کنید`)}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
               <Large to="/" left="true">
                 {t("Application Security")}
@@ -68,41 +68,49 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Software Principles")}
               </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            </Col> */}
+            <Col lg={3} md={6} sm={12} xs={12}>
               <Empty />
-              <Large left="true" to="/">
+              {/* <Large left="true" to="/">
                 {t("Support Center")}
               </Large>
               <Large left="true" to="/">
                 {t("Customer Support")}
-              </Large>
+              </Large> */}
             </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Language>{t("آدرس")}</Language>
+              <Para>خیابان صیاد شیرازی</Para>
+              <Para>صیاد شیرازی ۳۶ پلاک ۲۹</Para>
+              <Para>مشهد-ایران</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
+              <Title>{t("شرکت ها")}</Title>
+              {/* <Large left="true" href="https://ozhan.agency" >
+                {t("آژانس دیجیتال مارکتینگ اوژن")}
               </Large>
               <Large left="true" to="/">
-                {t("Blog")}
+                {t("آژانس ایده پردازی ایدکر")}
               </Large>
               <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
+                {t("آژانس تبلیغاتی چلیپا")}
+              </Large> */}
+              <a href="https://ozhan.agency">
+              آژانس دیجیتال مارکتینگ اوژن
+              </a>
+              <br></br>
+              <a href="">
+              آژانس ایده پردازی ایدکر
+              </a>
+              <br></br>
+              <a href="">
+              آژانس تبلیغاتی چلیپا
+              </a>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -122,7 +130,7 @@ const Footer = ({ t }: any) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </FooterSection>
