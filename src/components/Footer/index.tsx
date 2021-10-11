@@ -144,7 +144,7 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="logo.png"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -154,15 +154,15 @@ const Footer = ({ t }: any) => {
             <FooterContainer>
               <SocialLink
                 href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                src="twitter.png"
               />
               <SocialLink
                 href="https://www.linkedin.com/company/eightgroup"
-                src="linkedin.svg"
+                src="linkedin.png"
               />
                <SocialLink
                 href="https://instagram.com/eight_org?utm_medium=copy_link"
-                src="instagram.svg"
+                src="instagram.png"
               />
             </FooterContainer>
           </Row>
