@@ -54,7 +54,7 @@ const Footer = ({ t }: any) => {
               <Language>{t("ارتباط")}</Language>
               <Large to="/">{t("می‌تونی با ما صحبت کنی")}</Large>
               <Para>
-                {t(`آیا سوالی دارید؟ بهمون پیغام بدید`)}
+                {t(`آیا سوالی دارید؟ بهمون پیام بدید`)}
               </Para>
               <a href="mailto:info@eightco.xyz">
                 <Chat>{t(`شروع کنید`)}</Chat>
@@ -83,9 +83,9 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("آدرس")}</Language>
+              <Para>ایران-مشهد</Para>
               <Para>خیابان صیاد شیرازی</Para>
-              <Para>صیاد شیرازی ۳۶ پلاک ۲۹</Para>
-              <Para>مشهد-ایران</Para>
+              <Para>صیاد شیرازی ۲۶ پلاک ۲۹</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("شرکت ها")}</Title>

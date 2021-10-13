@@ -69,7 +69,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <TextArea
                   placeholder="پیام شما"
                   value={values.message || ""}
-                  name="پیغام"
+                  name="پیام"
                   onChange={handleChange}
                 />
                 <ValidationType type="message" />
