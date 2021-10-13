@@ -99,7 +99,7 @@ const Footer = ({ t }: any) => {
                 {t("آژانس تبلیغاتی چلیپا")}
               </Large> */}
               <a href="https://ozhan.agency">
-              آژانس دیجیتال مارکتینگ اوژن
+              آژانس بازاریابی و فروش اوژن
               </a>
               <br></br>
               <a href="">
@@ -146,8 +146,8 @@ const Footer = ({ t }: any) => {
                 <SvgIcon
                   src="logo.png"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="150px"
+                  height="60px"
                 />
               </LogoContainer>
             </NavLink>
