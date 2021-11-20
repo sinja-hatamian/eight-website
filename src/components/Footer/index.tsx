@@ -85,7 +85,7 @@ const Footer = ({ t }: any) => {
               <Language>{t("آدرس")}</Language>
               <Para>ایران-مشهد</Para>
               <Para>خیابان صیاد شیرازی</Para>
-              <Para>صیاد شیرازی ۲۶ پلاک ۲۹</Para>
+              <Para>صیاد شیرازی ۳۶ پلاک ۲۹</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("شرکت ها")}</Title>
