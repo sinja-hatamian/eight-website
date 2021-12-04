@@ -80,7 +80,7 @@ const Footer = ({ t }: any) => {
             </Col>
           </Row>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            <Col lg={10} md={10} sm={12} xs={12} >
               <Empty />
               <Language>{t("آدرس")}</Language>
               <Para>ایران-مشهد</Para>
